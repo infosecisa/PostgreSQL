@@ -1,0 +1,1 @@
+INSERT INTO cd.facilities VALUES ((select max(facid)+1 from cd.facilities), 'Spa',20,30,100000,800)
